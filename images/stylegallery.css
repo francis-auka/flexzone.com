@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+}
+div.gallery {
+    margin: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 10px 10px 10px 5px white ;
+    float: left;
+    width: 500px;
+    border-image-width: auto;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+    box-shadow: 10px 10px 10px 5px greenyellow;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: fit-content;
+    image-resolution:780px;
+  }
+  
